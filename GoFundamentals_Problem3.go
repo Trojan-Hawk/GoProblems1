@@ -6,7 +6,7 @@ package main
 // format package import
 import "fmt"
 
-// Hello World main function
+// main function
 func main() {
 
 	// for loop that runs 100 times
