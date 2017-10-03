@@ -29,7 +29,8 @@ func factorial(num *big.Int) (result *big.Int) {
 	if num.Cmp(zero) == -1 {
 		result = big.NewInt(1)
 	}
-	// check to see if the number is 0
+	// check to see if the number is equal to 0
+	// if it is we set result to 1
 	// if not call the function again
 	if num.Cmp(zero) == 0 {
 		// set result equal to 1
