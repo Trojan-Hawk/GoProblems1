@@ -15,14 +15,12 @@ Then import the 'fmt' package.
 The format package alllows us to call format on any print lines we have.
 
 First we call the main function.
-Then declare two int arrays.
-Then we print the two arrays and call the merge function on them.
+Then we declare two string variables.
+Next we populate one of these variables with user input.
+We then store the length of the input string in a variable.
 
-The merge function merges two sorted arrays together and then returns the new array.
-It does this by looping through both arrays until one of them is fully parsed.
-Inside the loop are some if statements.
-If array1 is empty, append array2 to new array.
-If array2 is empty, append array1 to new array.
-If array1 element 0 is less than or equal to array2 element 0,
-append element 0 to new array and shorten array1.
-Otherwise append element 0 of array2 to new array and shorten array2.
+Next we have a loop which uses the string length as a control.
+This loop stores the last character of the user input string into
+a new string and continues doing this while moving left along the 
+string until the length is reached.
+After the loop the user input string and the reversed string are output.

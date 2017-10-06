@@ -9,10 +9,8 @@ import "fmt"
 import "math"
 
 func main() {
-	// constants
+	// variables
 	number := 20.0
-	
-	// variables	
 	var guess float64
 	
 	// loop to aproximate the square root using Newton’s method
