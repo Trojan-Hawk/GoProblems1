@@ -18,27 +18,23 @@ func main() {
 	// Array print
 	fmt.Printf("\n\tElements in the array:\n%v \n\n", array)
 
-	// Loop to find the largest array element
+	// Loop to find the largest and smallest array element
   	for _, element := range array {
 		// if the current element is bigger than the previous biggest
 		if element > largest {
 			// set the largest equal to the current element
     		largest = element
     	}// if
-  	}// for
-	
-	// largest output
-	fmt.Println("The largest array element is:", largest)
-
-	// Loop to find the smallest array element
-	for _, element := range array {
 		// if the current element is smaller than the previous smallest
 		if element < smallest {
 			// set the smallest equal to the current element
 			smallest = element
 		}// if
-	}// for
+  	}// for
+	
+	// largest output
+	fmt.Println("The largest array element is:", largest)
 	
 	// smallest output
 	fmt.Println("The smallest array element is:", smallest)
-}
+}// main

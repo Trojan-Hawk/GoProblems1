@@ -2,9 +2,15 @@
 	Student Name: Timothy Cassidy		Student Number: G00333333
 =========================================================================================
 
+						Task:
+	Write a program that prints Hello, world! in Japanese 
+	(using Japanese characters) to the screen.
+	
+					  Procedure:
 Start by creating a helloWorld.go file.
 Open the command prompt and navigate to the .go file directory.
 Open up the .go file in a text editor.
+
 Start by declaring the package name, in this it will be 'main'.
 Then import the 'fmt' package.
 Then call the main function.
