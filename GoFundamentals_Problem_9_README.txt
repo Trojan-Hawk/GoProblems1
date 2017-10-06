@@ -2,11 +2,17 @@
 	Student Name: Timothy Cassidy		Student Number: G00333333
 =========================================================================================
 						
-						Task:
-	Write a program that prints the current time and date to 
-						the console.
+							Task:
+	Write a function to calculate the square root of a number using Newton’s 
+	method. Newton’s method is to approximate the square root of a number x 
+	by picking a starting point z and then repeating the following operation.
+					z_next = z - ((z*z - x) / (2 * z))
+	This is repeated while the values of z_next and z are different. After 
+		each iteration the value of z is replaced with that of z_next.
+
+	Run a few tests to determine how close you are to the math.Sqrt value?
 	
-					  Procedure:
+						  Procedure:
 Start by creating a .go file.
 Open the command prompt and navigate to the .go file directory.
 Open up the .go file in a text editor.

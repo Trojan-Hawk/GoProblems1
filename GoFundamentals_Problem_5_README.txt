@@ -1,7 +1,15 @@
 =========================================================================================
 	Student Name: Timothy Cassidy		Student Number: G00333333
 =========================================================================================
-
+						
+							Task:
+	Write a guessing game where the user must guess a randomly generated 
+	number. After every guess the program tells the user whether their 
+	number was too high or too low. At the end, the number of tries should 
+	be printed. It counts only as one try if they input the same number 
+					multiple times consecutively.
+	
+						  Procedure:
 Start by creating the .go file.
 Open the command prompt and navigate to the .go file directory.
 Open up the .go file in a text editor.

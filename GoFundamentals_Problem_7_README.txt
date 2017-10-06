@@ -3,8 +3,9 @@
 =========================================================================================
 						
 						Task:
-	Write a program that prints the current time and date to 
-						the console.
+	Write a function that tests whether a string is a palindrome. 
+	A palindrome is a string that reads the same in reverse, 
+					e.g. radar.
 	
 					  Procedure:
 Start by creating a .go file.

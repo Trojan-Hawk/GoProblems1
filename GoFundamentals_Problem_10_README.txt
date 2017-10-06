@@ -3,8 +3,7 @@
 =========================================================================================
 						
 						Task:
-	Write a program that prints the current time and date to 
-						the console.
+		Write a function to reverse a string in Go.
 	
 					  Procedure:
 Start by creating a .go file.

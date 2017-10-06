@@ -3,8 +3,8 @@
 =========================================================================================
 						
 						Task:
-	Write a program that prints the current time and date to 
-						the console.
+	Write a function that merges two sorted lists into a new 
+	sorted list, e.g. merge([1,4,6], [2,3,5]) = [1,2,3,4,5,6].
 	
 					  Procedure:
 Start by creating a .go file.

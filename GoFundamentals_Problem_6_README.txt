@@ -1,7 +1,12 @@
 =========================================================================================
 	Student Name: Timothy Cassidy		Student Number: G00333333
 =========================================================================================
-
+						
+						Task:
+	Write a function that returns the largest and smallest 
+				elements in a list.
+	
+					  Procedure:
 Start by creating the .go file.
 Open the command prompt and navigate to the .go file directory.
 Open up the .go file in a text editor.
