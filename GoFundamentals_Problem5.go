@@ -9,7 +9,6 @@ import "fmt"
 import "math/rand"
 // time package import
 import "time"
-// import "unicode"
 
 func main() {
 	// random number generated from function

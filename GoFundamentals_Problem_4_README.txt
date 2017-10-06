@@ -5,10 +5,11 @@
 Start by creating the .go file.
 Open the command prompt and navigate to the .go file directory.
 Open up the .go file in a text editor.
+
 Start by declaring the package name, in this it will be 'main'.
-The I created two more functions, one to calculate the factorial of 100,
+Then I created two functions, one to calculate the factorial of 100,
 and the other to sum each digit of the factorial output.
-Then in the main we import the 'fmt' package and the 'math/big' package.
+Then above the main we import the 'fmt' package and the 'math/big' package.
 The format package alllows us to call format on any print lines we have.
 The math/big package allows us to use the big int method,
 this lets us store a value past the max value of an int.
