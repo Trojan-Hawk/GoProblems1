@@ -7,21 +7,22 @@
 						the console.
 	
 					  Procedure:
-Start by creating the .go file.
+Start by creating a .go file.
 Open the command prompt and navigate to the .go file directory.
 Open up the .go file in a text editor.
-
 Start by declaring the package name, in this it will be 'main'.
-Then in the main we import the 'fmt' package.
+Then import the 'fmt' and the 'string' package.
 The format package alllows us to call format on any print lines we have.
+The string package alllows us to use string methods like ToLower.
 
 First we call the main function.
-Inside this we declare our variables and create an int array.
-Then the array is output to the console.
+Then declare a string variable.
+Next we store a user input string into that variable, then set it 
+all to lowercase using the .ToLower method.
 
-After this is a for loop which is controlled by the length of the array.
-Inside this loop we check for the smallest and largest in the array and
-store them into variables.
-
-When the loop has ended the smallest and largest number in the array 
-are output, then the program terminates.
+Next is an if else statement that prints out palindrome validation to the user.
+Inside the if statement the palindrome method is called.
+This plndrmCheck method returns true if the input string is a palindrome.
+It doest this by using the center of the string as a loop control,
+then it checks if the first and last letter are the same and continues
+inward until it finishes or finds unmatching characters. 
